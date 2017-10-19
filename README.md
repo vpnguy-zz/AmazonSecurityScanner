@@ -28,12 +28,12 @@ AmazonSecurityScanner (ASS) is a script to scan a EC2 instance for potential AWS
       Ver: 1.0 - 10/19/2017
     
     optional arguments:
-    -h, --helpshow this help message and exit
-    -c, --credentialscan  Only attempt to scan home directories for AWS Access Keys
+    -h, --help Show this help message and exit
+    -c, --credentialscan Only attempt to scan home directories for AWS Access Keys
     -i, --iamrole Only attempt to detect IAM Roles associated with the instance
-    -u, --userdataOnly attempt to detect user data associated with the instance
+    -u, --userdata Only attempt to detect user data associated with the instance
     -p, --peering Identify the information required to submit a peering request with the instance
-    -v, --vpcsubnets  Identify the VPC subnet masks associated with the interfaces on the instance
+    -v, --vpcsubnets Identify the VPC subnet masks associated with the interfaces on the instance
     
 
 
