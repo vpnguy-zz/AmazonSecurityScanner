@@ -1,16 +1,16 @@
 ![Supported Python versions](https://img.shields.io/badge/python-2.7-blue.svg)
-# AmazonSecurityScanner
+# AmazonSecurityScanner #
 AmazonSecurityScanner (ASS) is a script to scan a EC2 instance for potential AWS related attack surfaces. While AmazonSecurityScanner is nowhere near completion it is in a state where you can utilize it for rapid post exploitation reconnaissance on a compromised EC2 instance.
 
 
-## Current security checks
+## Current security checks ##
 - [AWS Access Keys](http://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) on instance
 - IAM Roles assigned to the instance
 - User data associated with the instance
 - Information related peering with the instance VPC
 - VPC CIDR Ranges
 
-##Possible Attacks
+## Possible Attacks ##
 - Theft of AWS Access Keys leading to user account compromise
 - IAM Role impersonation leading to unauthorized resource access
 - Theft of sensitive user data
